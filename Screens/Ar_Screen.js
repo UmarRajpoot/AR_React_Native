@@ -58,7 +58,7 @@ const HelloWorldSceneAR = () => {
   loop={true}
   paused={pause}
   
-  muted={true}
+  muted={false}
   position={[0,2,-5]}
   materials={["chromaKeyFilteredVideo"]}
 />
