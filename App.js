@@ -10,6 +10,7 @@ import Quiz from './Screens/Quiz';
 // import ARScreen from './Screens/ARScreen';
 import Suggestion from './Screens/Suggestion';
 import Ar_Screen from './Screens/Ar_Screen';
+import StartQuiz from './Screens/StartQuiz';
 
 
 const Tab = createBottomTabNavigator();
@@ -17,42 +18,48 @@ const Stack = createNativeStackNavigator();
 
 const App = () => {
   return (
-    <Ar_Screen />
-    // <NavigationContainer>
+    // <Ar_Screen />
+    <NavigationContainer>
     
-    //   <Stack.Navigator  screenOptions={{headerShown:false}}>
-    //     <Stack.Screen
-    //       name="SplashScreen"
-    //       component={Splash}
+      <Stack.Navigator  screenOptions={{headerShown:false}}>
+        <Stack.Screen
+          name="SplashScreen"
+          component={Splash}
           
-    //     />
-    //     <Stack.Screen name="Welcome" 
-    //     component={Welcome}
+        />
+        <Stack.Screen name="Welcome" 
+        component={Welcome}
         
-    //      />
-    //      <Stack.Screen name="Home" 
-    //     component={Home}
+         />
+         <Stack.Screen name="Home" 
+        component={Home}
         
-    //      />
-    //      <Stack.Screen name="SequenceDiagrams" 
-    //     component={SequenceDiagrams}
+         />
+         <Stack.Screen name="SequenceDiagrams" 
+        component={SequenceDiagrams}
         
-    //      />
-    //      <Stack.Screen name="Quiz" 
-    //     component={Quiz}
+         />
+         <Stack.Screen name="Quiz" 
+        component={Quiz}
         
-    //      />
-    //      <Stack.Screen name="Suggestion" 
-    //     component={Suggestion}
+         />
+         <Stack.Screen name="Suggestion" 
+        component={Suggestion}
         
-    //      />
+         />
          
-    //      <Stack.Screen name="ARScreen" 
-    //     component={Ar_Screen}
+         <Stack.Screen name="ARScreen" 
+        component={Ar_Screen}
         
-    //      />
-    //   </Stack.Navigator>
-    // </NavigationContainer>
+         />
+
+        <Stack.Screen
+          name="StartQuiz"
+          component={StartQuiz}
+          
+        />
+      </Stack.Navigator>
+    </NavigationContainer>
     
   );
 };

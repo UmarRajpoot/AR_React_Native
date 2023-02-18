@@ -73,7 +73,7 @@ const Welcome= ({navigation})=>{
 const styles= StyleSheet.create({
     top:{marginTop:80,alignItems:'center',justifyContent:'center'},
     mid:{marginTop:80, alignItems:'center',justifyContent:'center',marginBottom:25},
-    bottom:{marginTop:50,alignItems:'center',justifyContent:'center'},
+    bottom:{marginTop:0,alignItems:'center',justifyContent:'center'},
     button:{backgroundColor: "#F9703B", marginTop:20, height:"7%",width:"80%",alignItems:'center',justifyContent:'center', borderColor:'black', borderRadius:10},
     font:{fontSize:23,color:'black',fontWeight:'bold'}
 })

@@ -51,16 +51,16 @@ const HelloWorldSceneAR = () => {
     // placeholderSource={require("./res/local_spinner.jpg")}
     source={require('../Images/skeleton.jpg')}
 /> */}
-<ViroVideo
-  source={require('../Images/tiktok.mp4')}
-  height={2}
-  width={2}
-  loop={true}
-  paused={pause}
+<ViroImage
+  source={require('../Images/ar.png')}
+  height={10}
+  width={10}
+  // loop={true}
+  // paused={pause}
   
-  muted={false}
-  position={[0,2,-5]}
-  materials={["chromaKeyFilteredVideo"]}
+  // muted={false}
+  position={[2,-10,-15]}
+  // materials={["chromaKeyFilteredVideo"]}
 />
 <ViroBox
   height={2}

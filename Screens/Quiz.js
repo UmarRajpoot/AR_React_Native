@@ -21,7 +21,7 @@ const Quiz = ({navigation})=>{
                     </View>
 
                     <View style={styles.buttonContainer}> 
-                        <TouchableOpacity style={styles.buttons}>
+                        <TouchableOpacity style={styles.buttons} onPress={()=>(navigation.navigate('StartQuiz'))}>
                             <Text style={styles.buttonText}>Beginner</Text>
                         </TouchableOpacity>
 
