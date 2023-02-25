@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "187871115903",
+    "project_id": "arfyp-6d57c",
+    "storage_bucket": "arfyp-6d57c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187871115903:android:9b1093f05c7c8c6832dd4a",
+        "android_client_info": {
+          "package_name": "com.seqar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "187871115903-fi9icv2hljrgdj8fl3c0ccp8bvgmu8t1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.seqar",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "187871115903-9v2gjt0l6fue952gpu54ap90f9d69ove.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtfC4tjOrBN38IUcWDyjCNU7CSt_QGU3U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "187871115903-9v2gjt0l6fue952gpu54ap90f9d69ove.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
